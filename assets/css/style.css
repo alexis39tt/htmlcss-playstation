@@ -1,0 +1,48 @@
+/* RESET E VALORI DI DEFAULT */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+}
+
+/* CLASSI */
+
+/* header */
+
+.black-bg{
+    background-color: black;
+}
+
+.sony-logo{
+    width: 100px;
+    padding: 10px 0px;
+}
+
+header li{
+    padding: 0px 10px;
+}
+
+.nav-link{
+    color: black !important;
+    font-weight: 600;
+}
+
+.dropdown-toggle::after{
+    color: gray !important;
+}
+
+.dropdown-menu{
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+/* main */
+
+
+
+/* footer */
