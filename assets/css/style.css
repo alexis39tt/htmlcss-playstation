@@ -218,6 +218,17 @@ div.bg-dark{
     font-weight: 400;
 }
 
+/* section 7 */
+
+.here-ps4 span{
+    font-size: 1.8rem;
+    vertical-align: 10px;
+}
+
+.here-ps4 img{
+    max-width: 100%;
+}
+
 /* FOOTER */
 
 
@@ -245,6 +256,9 @@ div.bg-dark{
     .navbar{
         max-height: 70vh;
         overflow-y: scroll;
+    }
+    .here-ps4 img{
+        max-width: 100%;
     }
 }
 
