@@ -242,16 +242,37 @@ div.bg-dark{
     background-color:#d9dadc !important;
 }
 
-.btn-gray:hover{
+.btn-gray:hover, .btn-light:hover{
     box-shadow: inset 0 0 0 2px black;
 }
 
-.plus img{
-    width: 500px;
+.plus img, .now img{
+    max-width: 100%;
 }
 
-.disappear img{
+.disappear img, .now img{
     max-width: 700px;
+}
+
+/* section 9 */
+
+.store img{
+    width: 100%;
+}
+
+.store img:hover{
+    box-shadow: 0 0 0 3px white, 0 0 0 6px #1f91fc;
+}
+
+/* section 10 */
+
+.bg-darkblue{
+    background-color: #161c3b;
+}
+
+.now .btn-light{
+    width: 230px !important;
+    font-weight: 600 !important;
 }
 
 /* FOOTER */
