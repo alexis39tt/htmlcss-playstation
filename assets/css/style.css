@@ -229,6 +229,31 @@ div.bg-dark{
     max-width: 100%;
 }
 
+/* section 8 */
+
+.bg-gray{
+    background-color: #bebcbb;
+}
+
+.btn-gray{
+    width: 230px;
+    font-weight: 600 !important;
+    color: #2d64e6 !important;
+    background-color:#d9dadc !important;
+}
+
+.btn-gray:hover{
+    box-shadow: inset 0 0 0 2px black;
+}
+
+.plus img{
+    width: 500px;
+}
+
+.disappear img{
+    max-width: 700px;
+}
+
 /* FOOTER */
 
 
@@ -259,6 +284,9 @@ div.bg-dark{
     }
     .here-ps4 img{
         max-width: 100%;
+    }
+    .col.disappear{
+        display: none !important;
     }
 }
 
