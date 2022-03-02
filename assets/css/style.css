@@ -10,6 +10,34 @@ html{
     font-size: 18px;
 }
 
+h2{
+    font-size: 3rem !important;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1f91fc; 
+}
+
+.navbar::-webkit-scrollbar {
+    width: 0px;
+}
+
+.navbar::-webkit-scrollbar-track {
+    background: none; 
+}
+
+.navbar::-webkit-scrollbar-thumb {
+    background: none; 
+}
+
 /* CLASSI */
 
 /* header */
@@ -25,6 +53,10 @@ html{
 
 header li{
     padding: 0px 10px;
+}
+
+.navbar{
+    margin-top: 37px;
 }
 
 .nav-link{
@@ -55,13 +87,38 @@ header li{
 .dropdown-menu{
     border: none !important;
     border-radius: 0px !important;
+    padding: 15px 0 5px !important;
+}
+
+.dropdown-menu li{
+    padding: 0 !important;
 }
 
 .btn-dark:hover{
-    box-shadow: inset 0px 0px 0px 2px white;
+    box-shadow: inset 0 0 0 2px white;
 }
 
 /* main */
+
+.returnal{
+    background-image: url('../img/jumbo-bg.png');
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
+.returnal img{
+    width: 100%;
+}
+
+.btn-orange{
+    color: white !important;
+    background-color: #cd3d10 !important;
+}
+
+.btn-orange:hover{
+    box-shadow: inset 0 0 0 2px black;
+}
 
 
 
@@ -71,15 +128,22 @@ header li{
 
 /* MEDIA QUERIES */
 
+/* desktop */
+
 @media screen and (min-width: 1280px){
     .navbar i{
         align-self: center;
     }
 }
 
+/* phone, tablet */
+
 @media screen and (max-width: 1279px){
     .navbar button{
         width: 100px;
         margin: 15px 0px;
+    }
+    .dropdown-menu{
+        padding: 0 !important;
     }
 }
