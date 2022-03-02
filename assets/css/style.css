@@ -33,13 +33,43 @@ header li{
 }
 
 .dropdown-toggle::after{
-    color: gray !important;
+    display: none !important;
+}
+
+.dropdown-arrow, .dropdown-arrow-hover{
+    width: 12px;
+}
+
+.dropdown-arrow-hover{
+    display: none;
+}
+
+.navbar a:hover .dropdown-arrow{
+    display: none;
+}
+
+.navbar a:hover .dropdown-arrow-hover{
+    display: inline-block;
 }
 
 .dropdown-menu{
     border: none !important;
     border-radius: 0px !important;
 }
+
+.btn-dark:hover{
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+
+/* main */
+
+
+
+/* footer */
+
+
+
+/* MEDIA QUERIES */
 
 @media screen and (min-width: 1280px){
     .navbar i{
@@ -53,9 +83,3 @@ header li{
         margin: 15px 0px;
     }
 }
-
-/* main */
-
-
-
-/* footer */
