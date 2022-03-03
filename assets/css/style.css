@@ -260,7 +260,7 @@ div.bg-dark{
     width: 100%;
 }
 
-.store img:hover{
+.store img:hover, .social img:hover {
     box-shadow: 0 0 0 3px white, 0 0 0 6px #1f91fc;
 }
 
@@ -273,6 +273,16 @@ div.bg-dark{
 .now .btn-light{
     width: 230px !important;
     font-weight: 600 !important;
+}
+
+/* section 11 */
+
+.social img{
+    max-width: 100%;
+}
+
+.social .col{
+    width: 200px !important;
 }
 
 /* FOOTER */
@@ -311,6 +321,14 @@ div.bg-dark{
     }
 }
 
+/* tablet */
+
+@media screen and (max-width: 800px){
+    .social .col{
+        width: calc(100%/4) !important;
+    }
+}
+
 /* phone */
 
 @media screen and (max-width: 480px){
@@ -323,5 +341,8 @@ div.bg-dark{
     }
     .ps5 .col p{
         display: none;
+    }
+    .social .col{
+        width: calc(100%/2) !important;
     }
 }
