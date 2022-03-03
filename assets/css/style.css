@@ -287,7 +287,37 @@ div.bg-dark{
 
 /* FOOTER */
 
+.bg-electricblue{
+    background-color: #00439c;
+}
 
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    margin: 7px 0px;
+}
+
+footer li:hover, footer span{
+    text-decoration: underline;
+}
+
+footer p{
+    font-weight: 400;
+}
+
+footer .ps-logo{
+    width: 100px;
+}
+
+footer .globe{
+    width: 20px;
+}
+
+footer .sie-logo{
+    width: 200px;
+}
 
 /* MEDIA QUERIES */
 
